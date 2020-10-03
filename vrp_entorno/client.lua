@@ -338,7 +338,7 @@ RegisterCommand("forzar", function(source, args, rawCommand)
 			local plyPos = GetEntityCoords(GetPlayerPed(-1))
 			local location = GetStreetNameFromHashKey(street)
 
-			local msg = 'Vehiculo robado en ' .. location..' Matricula '.. matricula..' con modelo '.. modelo.. ' de color '.. color  ..' de '.. puertas ..' puertas'
+			local msg = 'Vehiculo robado en ' .. location..' Matricula '.. matricula..' con modelo '.. modelo.. ' de color '.. color  ..''
 			local notificationText = '~r~Matricula~s~ ' .. matricula.. '\n~r~Modelo~s~ ' .. modelo.. '\n~r~Localizacion~s~ '.. location.. ''
 			
 			drawNotification(notificationText)
